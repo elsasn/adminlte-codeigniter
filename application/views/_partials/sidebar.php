@@ -32,7 +32,7 @@
                     <i class="fa fa-dashboard"></i> <span>Dashboard</span> <i class="fa fa-angle-left pull-right"></i>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="<?php echo base_url('dashboard') ?>"><i class="fa fa-circle-o"></i> Dashboard</a></li>
+                    <li><a href="<?php echo base_url('dashboard') ?>"><i class="fa fa-edit"></i> Dashboard</a></li>
                 </ul>
         </li>
        <!--  <li class="treeview">
@@ -43,22 +43,25 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="assets/pages/forms/general.html"><i class="fa fa-circle-o"></i> General Elements</a></li>
-            <li><a href="assets/pages/forms/advanced.html"><i class="fa fa-circle-o"></i> Advanced Elements</a></li>
-            <li><a href="assets/pages/forms/editors.html"><i class="fa fa-circle-o"></i> Editors</a></li>
+            <li><a href="assets/pages/forms/general.html"><i class="fa fa-edit"></i> General Elements</a></li>
+            <li><a href="assets/pages/forms/advanced.html"><i class="fa fa-edit"></i> Advanced Elements</a></li>
+            <li><a href="assets/pages/forms/editors.html"><i class="fa fa-edit"></i> Editors</a></li>
           </ul>
         </li> -->
         <li class="treeview">
           <a href="#">
-            <i class="fa fa-edit"></i> <span>Master Data</span>
+            <i class="fa fa-database"></i> <span>Master Data</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="<?php echo base_url('product/view') ?>"><i class="fa fa-circle-o"></i> Produk</a></li>
-            <li><a href="<?php echo base_url('blank') ?>"><i class="fa fa-circle-o"></i> Advanced Elements</a></li>
-            <li><a href="<?php echo base_url('blank') ?>"><i class="fa fa-circle-o"></i> Editors</a></li>
+            <li><a href="<?php echo base_url('produk') ?>"><i class="fa fa-edit"></i> Produk</a></li>
+            <li><a href="<?php echo base_url('blank') ?>"><i class="fa fa-edit"></i> Paket</a></li>
+            <li><a href="<?php echo base_url('blank') ?>"><i class="fa fa-edit"></i> Harga</a></li>
+            <li><a href="<?php echo base_url('blank') ?>"><i class="fa fa-edit"></i> Denda</a></li>
+            <li><a href="<?php echo base_url('blank') ?>"><i class="fa fa-edit"></i> Konsumen</a></li>
+            <li><a href="<?php echo base_url('blank') ?>"><i class="fa fa-edit"></i> Diskon</a></li>
           </ul>
         </li>
         <li class="treeview">
@@ -69,9 +72,9 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="<?php echo base_url('blank') ?>"><i class="fa fa-circle-o"></i> General Elements</a></li>
-            <li><a href="<?php echo base_url('blank') ?>"><i class="fa fa-circle-o"></i> Advanced Elements</a></li>
-            <li><a href="<?php echo base_url('blank') ?>"><i class="fa fa-circle-o"></i> Editors</a></li>
+            <li><a href="<?php echo base_url('blank') ?>"><i class="fa fa-edit"></i> Peminjaman</a></li>
+            <li><a href="<?php echo base_url('blank') ?>"><i class="fa fa-edit"></i> Pengembalian</a></li>
+            <li><a href="<?php echo base_url('blank') ?>"><i class="fa fa-edit"></i> Pembayaran</a></li>
           </ul>
         </li>
         <li class="treeview">
@@ -82,8 +85,9 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="<?php echo base_url('blank') ?>"><i class="fa fa-circle-o"></i> Simple tables</a></li>
-            <li><a href="<?php echo base_url('blank') ?>"><i class="fa fa-circle-o"></i> Data tables</a></li>
+            <li><a href="<?php echo base_url('blank') ?>"><i class="fa fa-edit"></i> Peminjaman</a></li>
+            <li><a href="<?php echo base_url('blank') ?>"><i class="fa fa-edit"></i> Pengembalian</a></li>
+            <li><a href="<?php echo base_url('blank') ?>"><i class="fa fa-edit"></i> Pembayaran</a></li>
           </ul>
         </li>
         <li>
@@ -99,36 +103,36 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
+            <li><a href="#"><i class="fa fa-edit"></i> Level One</a></li>
             <li class="treeview">
-              <a href="#"><i class="fa fa-circle-o"></i> Level One
+              <a href="#"><i class="fa fa-edit"></i> Level One
                 <span class="pull-right-container">
                   <i class="fa fa-angle-left pull-right"></i>
                 </span>
               </a>
               <ul class="treeview-menu">
-                <li><a href="#"><i class="fa fa-circle-o"></i> Level Two</a></li>
+                <li><a href="#"><i class="fa fa-edit"></i> Level Two</a></li>
                 <li class="treeview">
-                  <a href="#"><i class="fa fa-circle-o"></i> Level Two
+                  <a href="#"><i class="fa fa-edit"></i> Level Two
                     <span class="pull-right-container">
                       <i class="fa fa-angle-left pull-right"></i>
                     </span>
                   </a>
                   <ul class="treeview-menu">
-                    <li><a href="#"><i class="fa fa-circle-o"></i> Level Three</a></li>
-                    <li><a href="#"><i class="fa fa-circle-o"></i> Level Three</a></li>
+                    <li><a href="#"><i class="fa fa-edit"></i> Level Three</a></li>
+                    <li><a href="#"><i class="fa fa-edit"></i> Level Three</a></li>
                   </ul>
                 </li>
               </ul>
             </li>
-            <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
+            <li><a href="#"><i class="fa fa-edit"></i> Level One</a></li>
           </ul>
         </li>
         <li><a href="https://adminlte.io/docs"><i class="fa fa-book"></i> <span>Documentation</span></a></li>
         <li class="header">LABELS</li>
-        <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Important</span></a></li>
-        <li><a href="#"><i class="fa fa-circle-o text-yellow"></i> <span>Warning</span></a></li>
-        <li><a href="#"><i class="fa fa-circle-o text-aqua"></i> <span>Information</span></a></li>
+        <li><a href="#"><i class="fa fa-edit text-red"></i> <span>Important</span></a></li>
+        <li><a href="#"><i class="fa fa-edit text-yellow"></i> <span>Warning</span></a></li>
+        <li><a href="#"><i class="fa fa-edit text-aqua"></i> <span>Information</span></a></li>
       </ul>
     </section>
     <!-- /.sidebar -->
